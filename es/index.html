@@ -1,0 +1,117 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Strates – Asistencia</title>
+<meta name="description" content="Asistencia, reglas y preguntas frecuentes de Strates, el juego de habilidad para iPhone en el que apilas capas al milímetro.">
+<link rel="icon" href="../icon.png">
+<link rel="apple-touch-icon" href="../icon.png">
+<style>
+  :root {
+    --ink: #faf2e6;
+    --ink-soft: rgba(250, 242, 230, 0.7);
+    --amber: #ffbd5c;
+    --night: #141228;
+    --card: rgba(20, 18, 40, 0.82);
+    --line: rgba(250, 242, 230, 0.12);
+  }
+  * { box-sizing: border-box; }
+  html { -webkit-text-size-adjust: 100%; }
+  body {
+    margin: 0;
+    min-height: 100vh;
+    color: var(--ink);
+    font: 17px/1.6 ui-rounded, -apple-system, BlinkMacSystemFont, "Helvetica Neue", Arial, sans-serif;
+    background: var(--night) linear-gradient(180deg, #0a0b1c 0%, #2b2552 35%, #6e4d73 65%, #ed8f6e 100%) fixed;
+  }
+  main { max-width: 680px; margin: 0 auto; padding: 48px 16px 64px; }
+  header { text-align: center; margin-bottom: 32px; }
+  header img { width: 112px; height: 112px; border-radius: 25px; box-shadow: 0 10px 30px rgba(0,0,0,.4); }
+  h1 { font-weight: 900; font-size: 52px; letter-spacing: 0.12em; line-height: 1.1; margin: 18px 0 6px; }
+  .tagline { color: var(--ink-soft); margin: 0; }
+  section {
+    background: var(--card);
+    -webkit-backdrop-filter: blur(16px); backdrop-filter: blur(16px);
+    border: 1px solid var(--line);
+    border-radius: 22px;
+    padding: 24px;
+    margin-bottom: 20px;
+  }
+  h2 { font-size: 24px; font-weight: 800; margin: 0 0 12px; }
+  h3 { font-size: 17px; margin: 18px 0 4px; }
+  p, li { color: var(--ink-soft); }
+  p { margin: 0 0 10px; }
+  p:last-child { margin-bottom: 0; }
+  ul { margin: 0 0 10px; padding-left: 22px; }
+  strong { color: var(--ink); }
+  a { color: var(--ink); }
+  .button {
+    display: inline-block; margin-top: 8px; padding: 12px 24px;
+    background: var(--amber); color: var(--night); text-decoration: none;
+    font-weight: 700; border-radius: 999px;
+  }
+  .langs { text-align: center; margin: 0 0 24px; font-size: 15px; }
+  .langs a { margin: 0 8px; color: var(--ink-soft); }
+  .langs a.on { color: var(--amber); font-weight: 700; text-decoration: none; }
+  footer { text-align: center; color: var(--ink-soft); font-size: 14px; margin-top: 28px; }
+</style>
+</head>
+<body>
+<main>
+  <header>
+    <img src="../icon.png" alt="Icono de Strates: una torre de capas de colores al atardecer">
+    <h1>STRATES</h1>
+    <p class="tagline">Apila. Apunta bien. Sube. Un juego de habilidad con un dedo para iPhone.</p>
+  </header>
+  <nav class="langs"><a href="../">Français</a> <a href="../en/">English</a> <a href="../es/" class="on">Español</a> <a href="../de/">Deutsch</a></nav>
+
+  <section>
+    <h2>Contacto</h2>
+    <p>¿Un error, una pregunta, una idea? Escríbenos, solemos responder en pocos días.</p>
+    <a class="button" href="mailto:contact@stelmo.fr?subject=Strates%20%E2%80%93%20Asistencia">contact@stelmo.fr</a>
+    <p style="margin-top:14px">Si tienes un problema, indica si puedes el modelo de tu iPhone, tu versión de iOS y lo que ha pasado.</p>
+  </section>
+
+  <section>
+    <h2>Cómo jugar</h2>
+    <p>Una capa se desliza de un lado a otro sobre tu torre. Toca la pantalla para soltarla: todo lo que sobresale se corta y cae. Tu torre se estrecha con cada imprecisión y la partida termina cuando fallas por completo.</p>
+    <p>Coloca una capa exactamente sobre la anterior para lograr un <strong>Perfecto</strong>. A partir de tres perfectos seguidos, la torre vuelve a ensancharse un poco: es la única forma de recuperar margen. Cuanto más subes, más rápido van las capas, y el cielo pasa del atardecer a la noche estrellada.</p>
+    <ul>
+      <li><strong>Jugar</strong>: una torre distinta en cada partida, para batir tu récord.</li>
+      <li><strong>Reto diario</strong>: la misma torre para todos, cada día. Solo tu primer intento cuenta en la clasificación del día; los siguientes son de práctica.</li>
+      <li><strong>Objetivos</strong>: 18 retos personales por desbloquear, de «10 capas en una partida» a «25 colocaciones perfectas seguidas».</li>
+    </ul>
+  </section>
+
+  <section>
+    <h2>Preguntas frecuentes</h2>
+    <h3>El juego no vibra.</h3>
+    <p>Comprueba que la respuesta háptica del sistema está activada en Ajustes › Sonidos y vibraciones › Vibraciones del sistema.</p>
+    <h3>¿A qué hora cambia el reto diario?</h3>
+    <p>El reto sigue la fecha de tu iPhone y cambia a medianoche. Apple reinicia cada día la clasificación diaria de Game Center.</p>
+    <h3>He fallado mi intento oficial, ¿puedo volver a jugar?</h3>
+    <p>Sí, todo lo que quieras, pero como práctica: solo el primer intento del día se envía a la clasificación diaria. Las partidas de práctica cuentan igualmente para tu récord y tus objetivos.</p>
+    <h3>¿Cómo pongo a cero mi récord y mis objetivos?</h3>
+    <p>Solo se guardan en tu iPhone. Borrar y volver a instalar la app los pone a cero.</p>
+    <h3>No aparezco en la clasificación.</h3>
+    <p>Las clasificaciones usan Game Center: inicia sesión en Ajustes › Game Center y juega una partida. Tu puntuación se envía al final de cada partida.</p>
+    <h3>¿Hace falta conexión a internet?</h3>
+    <p>No para jugar: Strates funciona sin conexión. Solo la necesitas para enviar tu puntuación y consultar las clasificaciones.</p>
+    <h3>¿Hay anuncios o compras integradas?</h3>
+    <p>No, ninguno.</p>
+  </section>
+
+  <section id="privacidad">
+    <h2>Privacidad</h2>
+    <p>Strates no recopila ningún dato personal. El juego no pide ninguna cuenta, no muestra anuncios y no usa herramientas de medición de audiencia. El desarrollador no tiene ningún servidor y no recibe ningún dato.</p>
+    <p><strong>En tu dispositivo:</strong> tu récord, tus estadísticas de juego, tu racha de retos diarios y tus objetivos desbloqueados se guardan localmente. Desaparecen si borras la app.</p>
+    <p><strong>Clasificaciones de Game Center:</strong> si has iniciado sesión en Game Center, tu puntuación se envía a Apple al final de cada partida, a la clasificación Récord y, para tu intento oficial del día, a la clasificación Reto diario. Tu apodo de Game Center y tu puntuación son entonces visibles para otros jugadores en esas clasificaciones. Apple gestiona estos datos según su <a href="https://www.apple.com/es/legal/privacy/">política de privacidad</a>. Para no participar, basta con no iniciar sesión en Game Center; también puedes gestionar tu visibilidad en Ajustes › Game Center.</p>
+    <p>Para cualquier pregunta sobre privacidad, escribe a <a href="mailto:contact@stelmo.fr">contact@stelmo.fr</a>.</p>
+    <p>Última actualización: 6 de noviembre de 2026.</p>
+  </section>
+
+  <footer>© 2026 Stéphane Palermo</footer>
+</main>
+</body>
+</html>
